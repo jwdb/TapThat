@@ -5,10 +5,8 @@
              x:Class="TapThat.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="Nick" Placeholder="Nick" />
+        <Entry x:Name="ID" Placeholder="Code" />
+        <Button Text="Tap that!" Clicked="Button_Clicked" />
     </StackLayout>
-
 </ContentPage>
